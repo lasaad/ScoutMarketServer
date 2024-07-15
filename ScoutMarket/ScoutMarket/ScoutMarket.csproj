@@ -9,8 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Services\" />
+    <Folder Include="Models\Store\DTOs\" />
+    <Folder Include="Models\Store\Responses\" />
+    <Folder Include="Services\Store\Interfaces\" />
   </ItemGroup>
 
 </Project>

@@ -2,11 +2,11 @@
 {
     public class Price
     {
-        public int Id { get; set; }
-        public int StoreId {  get; set; }
-        public int ProductId { get; set; }
-        public int Currency {  get; set; }
-        public int Amount  { get; set; }
-        public DateTime UpdateDate {get; set; }
+        public required int Id { get; set; }
+        public required int StoreId {  get; set; }
+        public required int ProductId { get; set; }
+        public required int Currency {  get; set; }
+        public required int Amount  { get; set; }
+        public required DateTime UpdateDate {get; set; }
     }
 }
