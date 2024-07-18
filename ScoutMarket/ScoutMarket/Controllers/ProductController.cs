@@ -53,8 +53,8 @@ namespace ScoutMarket.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    //ProductResponse result = await productService.AddProductAsync(product);
-                    //return Ok(result);
+                    Product result = await productService.AddProductAsync(product);
+                    return Ok(result);
                 }
                 return BadRequest(ModelState);
             }
