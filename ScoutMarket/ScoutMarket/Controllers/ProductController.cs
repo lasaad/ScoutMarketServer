@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ScoutMarket.Models.Product;
-using ScoutMarket.Models.Product.DTOs;
+using ScoutMarket.DTOs;
+using ScoutMarket.Models;
 using ScoutMarket.Services.Product.Interfaces;
 
 namespace ScoutMarket.Controllers

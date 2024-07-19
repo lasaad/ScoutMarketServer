@@ -1,4 +1,4 @@
-﻿namespace ScoutMarket.Models.Store
+﻿namespace ScoutMarket.Entities
 {
     public class Store
     {

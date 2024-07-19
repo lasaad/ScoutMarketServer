@@ -1,4 +1,4 @@
-﻿namespace ScoutMarket.Models.Product.DTOs
+﻿namespace ScoutMarket.DTOs
 {
     internal class ProductDto
     {

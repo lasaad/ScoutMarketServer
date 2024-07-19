@@ -1,4 +1,4 @@
-﻿namespace ScoutMarket.Models.Product
+﻿namespace ScoutMarket.Entities
 {
     public class Product
     {
